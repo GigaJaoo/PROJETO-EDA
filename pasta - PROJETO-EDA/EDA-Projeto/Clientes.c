@@ -66,23 +66,23 @@ int ArmazenarClientesBin(ListaClientes* head, char fileName[]) {
  * Caso não consiga ler a lista a partir do ficheiro, retorna 0.
  * Caso consiga ler a lista a partir do ficheiro, retorna a lista lida.
  */
- ListaClientes* LerClientes(char fileName[]) {
- 	ListaClientes* head = NULL;
- 	FILE* fClientes;
- 	fClientes = fopen(fileName, "r");
- 	if (fClientes == NULL) {
- 		return 0;
- 	}
- 
- 	Cliente* aux;
- 	while(!feof(fClientes)){
- 		fscanf(fClientes, "%d;%d;%f;[^;];%s\n", &aux->nif, &aux->idade, &aux->saldo, &aux->nome, &aux->morada);
- 		head = InserirClientes(head, &aux);
- 	}
- 	fclose(fClientes);
- 
- 	return head;
- }
+ //ListaClientes* LerClientes(char fileName[]) {
+ //	ListaClientes* head = NULL;
+ //	FILE* fClientes;
+ //	fClientes = fopen(fileName, "r");
+ //	if (fClientes == NULL) {
+ //		return 0;
+ //	}
+ //
+ //	Cliente* aux;
+ //	while(!feof(fClientes)){
+ //		fscanf(fClientes, "%d;%d;%f;[^;];%s\n", &aux->nif, &aux->idade, &aux->saldo, &aux->nome, &aux->morada);
+ //		head = InserirClientes(head, &aux);
+ //	}
+ //	fclose(fClientes);
+ //
+ //	return head;
+ //}
 
 /**
   * Função para ler a lista de clientes de ficheiro binário.

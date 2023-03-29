@@ -66,7 +66,7 @@ int ArmazenarMeiosBin(ListaGestores* head, char fileName[]) {
  * Caso não consiga ler a lista a partir do ficheiro, retorna 0.
  * Caso consiga ler a lista a partir do ficheiro, retorna a lista lida.
  */
- ListaMeios* LerMeios(char fileName[]) {
+ /*ListaMeios* LerMeios(char fileName[]) {
  	ListaMeios* head = NULL;
  	FILE* fMeios;
  	fMeios = fopen(fileName, "r");
@@ -84,7 +84,7 @@ int ArmazenarMeiosBin(ListaGestores* head, char fileName[]) {
  	fclose(fMeios);
  
  	return head;
- }
+ }*/
 
 /**
   * Função para ler a lista dos meios de mobilidade elétricos de ficheiro binário.
