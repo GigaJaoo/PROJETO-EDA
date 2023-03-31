@@ -74,10 +74,10 @@ int ArmazenarGestoresBin(ListaGestores* head, char fileName[]) {
  		return 0;
  	}
  
- 	Gestor* aux;
+ 	Gestor aux;              //Não é apontador aqui
  	while (!feof(fGestores)) {
- 		fscanf(fGestores, "%d;%d;%s\n", &aux->nif, &aux->idade, &aux->nome);
- 		head = InserirGestores(head, &aux);
+ 		fscanf(fGestores, "%d;%d;%s\n", &aux->nif, &aux->idade, aux->nome);           //nas strings nao precisa do &
+ 		head = InserirGestores(head, &aux);                                           //mudar as -> para . n fscanf
  	}
  	fclose(fGestores);
  
@@ -98,7 +98,7 @@ ListaGestores* LerGestoresBin(char fileName[]) {
 		return 0;
 	}
 
-	Gestor* aux;
+	Gestor aux;           //Não é apontador
 	while (fread(&aux, 1, sizeof(Gestor), fGestoresBin)) {
 		head = InserirGestores(head, &aux);
 	}
@@ -155,15 +155,20 @@ ListaGestores* InserirGestores(ListaGestores* head, Gestor* novoGestor) {
  * Caso consiga remover o gestor pretendido, retorna a lista sem esse gestor.
  * Caso não consiga remover o gestor pretendido, retorna a lista sem alterações.
  */
-ListaGestores* RemoverGestores(ListaGestores* head, Gestor* gestorRemovido) {
+ListaGestores* RemoverGestores(ListaGestores* head, Gestor* gestorRemovido, bool*res) {
 	ListaGestores* aux = head;
 	ListaGestores* anterior = head;
+	if (head == NULL) {
+		res = false;
+		return NULL;
+	}
 
 	// Caso em que o gestor removido é o primeiro elemento da lista.
 	if (ComparaGestores(aux, gestorRemovido) == 1) {
 		head = aux->nextGestor;
 		//aux->nextGestor = NULL;            // Possivelmente, deveria libertar o aux em vez de o colocar a apontar para NULL
 		free(aux);
+		res = true;
 		return head;
 	}
 
@@ -173,13 +178,16 @@ ListaGestores* RemoverGestores(ListaGestores* head, Gestor* gestorRemovido) {
 		if (ComparaGestores(aux, gestorRemovido) == 1) {
 			anterior->nextGestor = aux->nextGestor;
 			//aux->nextGestor = NULL;
+			res = true;
 			free(aux);
+			return head;
 		}
 		else {
 			anterior = anterior->nextGestor;
 			aux = aux->nextGestor;
 		}
 	}
+	res = false;
 	return head;
 
 }

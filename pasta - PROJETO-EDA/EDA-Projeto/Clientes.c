@@ -74,10 +74,11 @@ int ArmazenarClientesBin(ListaClientes* head, char fileName[]) {
  //		return 0;
  //	}
  //
- //	Cliente* aux;
+ //	Cliente aux;              //Não é apontador
+ // 
  //	while(!feof(fClientes)){
- //		fscanf(fClientes, "%d;%d;%f;[^;];%s\n", &aux->nif, &aux->idade, &aux->saldo, &aux->nome, &aux->morada);
- //		head = InserirClientes(head, &aux);
+ //		fscanf(fClientes, "%d;%d;%f;[^;];%s\n", &aux.nif, &aux.idade, &aux.saldo, aux.nome, aux.morada);                //Nas strings não precisa de &
+ //		head = InserirClientes(head, &aux);                              //no fscanf utilizar . em vez de ->
  //	}
  //	fclose(fClientes);
  //
@@ -98,7 +99,7 @@ ListaClientes* LerClientesBin(char fileName[]) {
 		return 0;
 	}
 
-	Cliente* aux;
+	Cliente aux;
 	while (fread(&aux, 1, sizeof(Cliente), fClientesBin)) {
 		head = InserirClientes(head, &aux);
 	}

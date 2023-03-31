@@ -15,10 +15,10 @@
   * Tipos de transportes elétricos.
   */
 typedef enum tipoTransporte {
-	Trotinete,
-	Bicicleta,
-	Motociclo,
-	Carro,
+	trotinete,
+	bicicleta,
+	motociclo,
+	carro,
 } TipoTransporte;
 
 /**

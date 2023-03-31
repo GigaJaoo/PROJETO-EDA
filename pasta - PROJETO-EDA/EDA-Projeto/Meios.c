@@ -74,10 +74,10 @@ int ArmazenarMeiosBin(ListaGestores* head, char fileName[]) {
  		return 0;
  	}
  
- 	MeiosMobElet* aux;
+ 	MeiosMobElet aux;      //Não é apontador aqui
  	int transporte;
  	while (!feof(fMeios)) {
- 		fscanf(fMeios, "%d;%d;%d\n", &aux->autonomia, &aux->geocodigo, &transporte);
+ 		fscanf(fMeios, "%d;%d;%d\n", &aux->autonomia, &aux->geocodigo, &transporte);             //utilizar . em vez de -> no fscanf
  		aux->tipo = (TipoTransporte)transporte;
  		head = InserirMeio(head, &aux);
  	}
@@ -100,7 +100,7 @@ ListaMeios* LerMeiosBin(char fileName[]) {
 		return 0;
 	}
 
-	MeiosMobElet* aux;
+	MeiosMobElet aux;          //Nao é apontador aqui
 	while (fread(&aux, 1, sizeof(MeiosMobElet), fMeiosBin)) {
 		head = InserirMeio(head, &aux);
 	}
