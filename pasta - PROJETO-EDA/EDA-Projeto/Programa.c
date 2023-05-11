@@ -30,7 +30,7 @@ int main() {
 	/*c1.nif = 51;
 	c1.idade = 19;
 	c1.saldo = 34.5f;
-	strcpy("Jo�o", c1.nome);
+	strcpy("Joao", c1.nome);
 	strcpy("Rua da Ambrosia", c1.morada);
 
 	c2.nif = 28;
@@ -63,6 +63,6 @@ int main() {
 	//ArmazenarGestoresBin(inicioGestores, "DadosBinGestores.bin");
 	//ArmazenarMeiosBin(inicioMeios, "DadosBinMeios.bin");
 
-	// Armazena tamb�m em ficheiros de texto
+	// Armazena também em ficheiros de texto
 	ArmazenarClientes(inicioClientes, "DadosClientes.txt");
 }

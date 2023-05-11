@@ -1,27 +1,18 @@
-﻿  Clientes.c
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(30,22): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 4 has type 'Cliente *'
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(30,149): warning C4474: 'fprintf' : too many arguments passed for format string
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(30,149): message : placeholders and their parameters expect 5 variadic arguments, but 6 were provided
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(103,36): warning C4047: 'function': 'Cliente *' differs in levels of indirection from 'Cliente **'
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(103,32): warning C4024: 'InserirClientes': different types for formal and actual parameter 2
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(199,22): warning C4133: 'function': incompatible types - from 'ListaClientes *' to 'Cliente *'
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(209,23): warning C4133: 'function': incompatible types - from 'ListaClientes *' to 'Cliente *'
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(259,23): warning C4133: 'function': incompatible types - from 'ListaClientes *' to 'Cliente *'
-  Gestores.c
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(103,36): warning C4047: 'function': 'Gestor *' differs in levels of indirection from 'Gestor **'
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(103,32): warning C4024: 'InserirGestores': different types for formal and actual parameter 2
+﻿  Gestores.c
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(121,8): warning C4133: '=': incompatible types - from 'Gestor *' to 'ListaGestores *'
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(129,9): warning C4133: '=': incompatible types - from 'Gestor *' to 'ListaGestores *'
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(163,22): warning C4133: 'function': incompatible types - from 'ListaGestores *' to 'Gestor *'
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(173,23): warning C4133: 'function': incompatible types - from 'ListaGestores *' to 'Gestor *'
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(225,23): warning C4133: 'function': incompatible types - from 'ListaGestores *' to 'Gestor *'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(158,87): warning C4029: declared formal parameter list different from definition
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(167,22): warning C4133: 'function': incompatible types - from 'ListaGestores *' to 'Gestor *'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(171,13): warning C4047: '=': 'bool *' differs in levels of indirection from 'int'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(178,23): warning C4133: 'function': incompatible types - from 'ListaGestores *' to 'Gestor *'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(181,14): warning C4047: '=': 'bool *' differs in levels of indirection from 'int'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(201,10): error C2198: 'RemoverGestores': too few arguments for call
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(233,23): warning C4133: 'function': incompatible types - from 'ListaGestores *' to 'Gestor *'
   Meios.c
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(19,35): warning C4028: formal parameter 1 different from declaration
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(23,14): warning C4133: 'initializing': incompatible types - from 'ListaGestores *' to 'ListaMeios *'
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(44,38): warning C4028: formal parameter 1 different from declaration
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(48,14): warning C4133: 'initializing': incompatible types - from 'ListaGestores *' to 'ListaMeios *'
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(105,32): warning C4047: 'function': 'MeiosMobElet *' differs in levels of indirection from 'MeiosMobElet **'
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(105,28): warning C4024: 'InserirMeio': different types for formal and actual parameter 2
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(123,8): warning C4133: '=': incompatible types - from 'MeiosMobElet *' to 'ListaMeios *'
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(131,9): warning C4133: '=': incompatible types - from 'MeiosMobElet *' to 'ListaMeios *'
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(164,19): warning C4133: 'function': incompatible types - from 'ListaMeios *' to 'MeiosMobElet *'
@@ -30,5 +21,3 @@ C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(224,20): warn
   Programa.c
   Generating Code...
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(237): warning C4716: 'ImprimirMeios': must return a value
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(238): warning C4716: 'ImprimirGestores': must return a value
-  EDA-Projeto.vcxproj -> C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\x64\Debug\EDA-Projeto.exe
