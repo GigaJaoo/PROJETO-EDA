@@ -1,4 +1,45 @@
-﻿  Gestores.c
+﻿  Clientes.c
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(23,2): error C2061: syntax error: identifier 'Vertice'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(24,11): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(25,1): error C2059: syntax error: '}'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(41,2): error C2061: syntax error: identifier 'Adjacente'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(42,1): error C2059: syntax error: '}'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,28): error C2143: syntax error: missing ')' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,28): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,37): error C2059: syntax error: 'type'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,47): error C2059: syntax error: ')'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,29): error C2143: syntax error: missing ')' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,29): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,39): error C2059: syntax error: 'type'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,65): error C2059: syntax error: ')'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(30,22): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 4 has type 'Cliente *'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(30,149): warning C4474: 'fprintf' : too many arguments passed for format string
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(30,149): message : placeholders and their parameters expect 5 variadic arguments, but 6 were provided
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(80,91): warning C4474: 'fscanf' : too many arguments passed for format string
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(80,91): message : placeholders and their parameters expect 4 variadic arguments, but 5 were provided
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(200,22): warning C4133: 'function': incompatible types - from 'ListaClientes *' to 'Cliente *'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(210,23): warning C4133: 'function': incompatible types - from 'ListaClientes *' to 'Cliente *'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Clientes.c(260,23): warning C4133: 'function': incompatible types - from 'ListaClientes *' to 'Cliente *'
+  Gestores.c
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(23,2): error C2061: syntax error: identifier 'Vertice'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(24,11): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(25,1): error C2059: syntax error: '}'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(41,2): error C2061: syntax error: identifier 'Adjacente'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(42,1): error C2059: syntax error: '}'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,28): error C2143: syntax error: missing ')' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,28): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,37): error C2059: syntax error: 'type'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,47): error C2059: syntax error: ')'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,29): error C2143: syntax error: missing ')' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,29): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,39): error C2059: syntax error: 'type'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,65): error C2059: syntax error: ')'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(79,42): error C2232: '->nif': left operand has 'struct' type, use '.'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(79,53): error C2232: '->idade': left operand has 'struct' type, use '.'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(79,65): error C2232: '->nome': left operand has 'struct' type, use '.'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(79,22): warning C4473: 'fscanf' : not enough arguments passed for format string
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(79,22): message : placeholders and their parameters expect 3 variadic arguments, but 0 were provided
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(79,22): message : the missing variadic argument 1 is required by format string '%d'
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(121,8): warning C4133: '=': incompatible types - from 'Gestor *' to 'ListaGestores *'
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(129,9): warning C4133: '=': incompatible types - from 'Gestor *' to 'ListaGestores *'
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(158,87): warning C4029: declared formal parameter list different from definition
@@ -8,7 +49,42 @@ C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(178,23): w
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(181,14): warning C4047: '=': 'bool *' differs in levels of indirection from 'int'
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(201,10): error C2198: 'RemoverGestores': too few arguments for call
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Gestores.c(233,23): warning C4133: 'function': incompatible types - from 'ListaGestores *' to 'Gestor *'
+  Grafo.c
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(23,2): error C2061: syntax error: identifier 'Vertice'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(24,11): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(25,1): error C2059: syntax error: '}'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(41,2): error C2061: syntax error: identifier 'Adjacente'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(42,1): error C2059: syntax error: '}'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,28): error C2143: syntax error: missing ')' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,28): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,37): error C2059: syntax error: 'type'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,47): error C2059: syntax error: ')'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,29): error C2143: syntax error: missing ')' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,29): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,39): error C2059: syntax error: 'type'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,65): error C2059: syntax error: ')'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.c(18,28): error C2143: syntax error: missing ')' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.c(18,28): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.c(18,37): error C2059: syntax error: 'type'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.c(18,47): error C2059: syntax error: ')'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.c(46,29): error C2143: syntax error: missing ')' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.c(46,29): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.c(46,39): error C2059: syntax error: 'type'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.c(46,65): error C2059: syntax error: ')'
   Meios.c
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(23,2): error C2061: syntax error: identifier 'Vertice'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(24,11): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(25,1): error C2059: syntax error: '}'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(41,2): error C2061: syntax error: identifier 'Adjacente'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(42,1): error C2059: syntax error: '}'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,28): error C2143: syntax error: missing ')' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,28): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,37): error C2059: syntax error: 'type'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,47): error C2059: syntax error: ')'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,29): error C2143: syntax error: missing ')' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,29): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,39): error C2059: syntax error: 'type'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,65): error C2059: syntax error: ')'
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(19,35): warning C4028: formal parameter 1 different from declaration
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(23,14): warning C4133: 'initializing': incompatible types - from 'ListaGestores *' to 'ListaMeios *'
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(44,38): warning C4028: formal parameter 1 different from declaration
@@ -19,5 +95,17 @@ C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(164,19): warn
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(174,20): warning C4133: 'function': incompatible types - from 'ListaMeios *' to 'MeiosMobElet *'
 C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(224,20): warning C4133: 'function': incompatible types - from 'ListaMeios *' to 'MeiosMobElet *'
   Programa.c
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(23,2): error C2061: syntax error: identifier 'Vertice'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(24,11): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(25,1): error C2059: syntax error: '}'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(41,2): error C2061: syntax error: identifier 'Adjacente'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(42,1): error C2059: syntax error: '}'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,28): error C2143: syntax error: missing ')' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,28): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,37): error C2059: syntax error: 'type'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(56,47): error C2059: syntax error: ')'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,29): error C2143: syntax error: missing ')' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,29): error C2143: syntax error: missing '{' before '*'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,39): error C2059: syntax error: 'type'
+C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Grafo.h(61,65): error C2059: syntax error: ')'
   Generating Code...
-C:\Users\jotam\PROJETO-EDA\pasta - PROJETO-EDA\EDA-Projeto\Meios.c(237): warning C4716: 'ImprimirMeios': must return a value

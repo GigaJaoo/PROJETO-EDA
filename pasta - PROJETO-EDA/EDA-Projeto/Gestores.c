@@ -66,7 +66,7 @@ int ArmazenarGestoresBin(ListaGestores* head, char fileName[]) {
  * Caso não consiga ler a lista a partir do ficheiro, retorna 0.
  * Caso consiga ler a lista a partir do ficheiro, retorna a lista lida.
  */
- /*ListaGestores* LerGestores(char fileName[]) {
+ ListaGestores* LerGestores(char fileName[]) {
  	ListaGestores* head = NULL;
  	FILE* fGestores;
  	fGestores = fopen(fileName, "r");
@@ -82,7 +82,7 @@ int ArmazenarGestoresBin(ListaGestores* head, char fileName[]) {
  	fclose(fGestores);
  
  	return head;
- }*/
+ }
 
 /**
   * Função para ler a lista de gestores de ficheiro binário.

@@ -66,7 +66,7 @@ int ArmazenarMeiosBin(ListaGestores* head, char fileName[]) {
  * Caso não consiga ler a lista a partir do ficheiro, retorna 0.
  * Caso consiga ler a lista a partir do ficheiro, retorna a lista lida.
  */
- /*ListaMeios* LerMeios(char fileName[]) {
+ ListaMeios* LerMeios(char fileName[]) {
  	ListaMeios* head = NULL;
  	FILE* fMeios;
  	fMeios = fopen(fileName, "r");
@@ -77,14 +77,14 @@ int ArmazenarMeiosBin(ListaGestores* head, char fileName[]) {
  	MeiosMobElet aux;      //Não é apontador aqui
  	int transporte;
  	while (!feof(fMeios)) {
- 		fscanf(fMeios, "%d;%d;%d\n", &aux->autonomia, &aux->geocodigo, &transporte);             //utilizar . em vez de -> no fscanf
- 		aux->tipo = (TipoTransporte)transporte;
+ 		fscanf(fMeios, "%d;%d;%d\n", &aux.autonomia, &aux.geocodigo, &transporte);             //utilizar . em vez de -> no fscanf
+ 		aux.tipo = (TipoTransporte)transporte;
  		head = InserirMeio(head, &aux);
  	}
  	fclose(fMeios);
  
  	return head;
- }*/
+ }
 
 /**
   * Função para ler a lista dos meios de mobilidade elétricos de ficheiro binário.
